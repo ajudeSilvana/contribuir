@@ -408,20 +408,20 @@ li:hover ul {
     
 }
 .wtt {
-    left: 40%;
+    left: 35%;
 }
 .face {
     top: 140px;
-    left: 40%;
+    left: 35%;
 }
 .insta {
     top: 180px;
-    left: 40%;
+    left: 35%;
 }
 .imgcontato{
     position: absolute;
     top: 98px;
-    left: 28%;
+    left: 20%;
 
     height: 30px;
     width: 30px;
@@ -449,10 +449,29 @@ li:hover ul {
     left: 70%;
     
 }
+.titulodoenca {
+    left: 29%;
+}
+.txtdoenca {
+    height: 400px;
+    width: 280px;
+
+    overflow-y: scroll;
+}
 .titulo {
-    width: 350px;
-    left: 55%;
+    width: 300px;
+    left: 65%;
     
 }
+.txtHistoria {
+    top: 200px;
+    left: 50%;
 
+    transform: translate(-50%);
+
+    height: 400px;
+    width: 300px;
+
+    overflow-y: scroll;
+}
 }
