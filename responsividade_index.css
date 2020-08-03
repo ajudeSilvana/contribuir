@@ -472,6 +472,6 @@ li:hover ul {
     height: 400px;
     width: 300px;
 
-    overflow-y: scroll;
+    overflow-y: scroll ;
 }
 }
