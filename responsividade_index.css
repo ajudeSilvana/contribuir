@@ -400,5 +400,59 @@ li:hover ul {
 }
 }
 @media screen and (max-width: 400px) {
+.titulocontato {
+    left: 50%;
+
+    transform: translate(-50%);
+
+    
+}
+.wtt {
+    left: 40%;
+}
+.face {
+    top: 140px;
+    left: 40%;
+}
+.insta {
+    top: 180px;
+    left: 40%;
+}
+.imgcontato{
+    position: absolute;
+    top: 98px;
+    left: 28%;
+
+    height: 30px;
+    width: 30px;
+}
+.imgwtt {
+    height: 28px;
+    width: 28px;
+}
+.imgface {
+    top: 140px;
+}
+.imginsta {
+    top: 180px;
+}
+#nav {
+    display: inline;
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    left: 20% ;
+    transform: translate(-50%);
+    
+}
+.btt4 {
+    left: 70%;
+    
+}
+.titulo {
+    width: 350px;
+    left: 55%;
+    
+}
 
 }
