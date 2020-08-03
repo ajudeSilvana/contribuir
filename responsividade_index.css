@@ -1,0 +1,404 @@
+@media screen and (max-width: 1350px) {
+.titulo {
+    top: 10px;
+    left: 2%;
+}
+.txtHistoria {
+    top: 100px;
+    left: 2%;
+
+    /* transform: translate(-50%); */
+
+    height: 400px;
+    width: 600px;
+}
+.imgini {
+    left: 55%;
+    top: 40px;
+
+    width: 500px;
+    height: 700px;
+}
+}
+@media screen and (max-width: 1300px) {
+.btt1 {
+    left: 35%;
+}
+.btt2 {
+    left: 50%;
+}
+.btt3 {
+    left: 65%;
+}
+.btt4 {
+    left: 90%;
+}
+.wtt {
+    left: 10%;
+}
+.face {
+    left: 10%;
+}
+.insta {
+    left: 10%;
+}
+}
+@media screen and (max-width: 1150px) {
+.imgdoenca {
+    width: 50%;
+    height: 800px;
+}
+.titulo {
+    top: 10px;
+    left: 50%;
+
+    transform: translate(-50%);
+}
+.txtHistoria {
+    top: 150px;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    height: 400px;
+    width: 600px;
+}
+.imgini {
+    left: 50%;
+    top: 500px;
+
+    transform: translate(-50%);
+
+    width: 500px;
+    height: 700px;
+}
+}
+@media screen and (max-width: 1050px) {
+.imgcontato2 {
+    position: absolute;
+    top: 50px;
+    left: 35%;
+
+    height: 500px;
+    width: 600px;
+}
+}
+@media screen and (max-width: 950px) {
+.imgcontato2 {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+
+    transform: translate(-50%);
+    
+    height: 500px;
+    width: 600px;
+}
+}
+@media screen and (max-width: 900px) {
+.btt1 {
+    left: 30%;
+}
+.btt2 {
+    left: 50%;
+}
+.btt3 {
+    left: 70%;
+}
+.btt4 {
+    left: 89%;
+}
+.imgdoenca {
+    width: 70%;
+    height: 800px;
+}
+
+}
+@media screen and (max-width: 800px) {
+.btt1 {
+    display: none;
+}
+.btt2 {
+    display: none;
+}
+.btt3 {
+    display: none;
+}
+.btt4 {
+    left: 80%;
+    
+}
+.imgdoenca {
+    width: 80%;
+    height: 600px;
+}
+.wtt {
+    left: 12%;
+}
+.face {
+    left: 12%;
+}
+.insta {
+    left: 12%;
+}
+}
+@media screen and (max-width: 800px){
+/* Menu responsivo */
+li ul {
+        position: absolute;
+        left: 0px;
+        top: 40px;
+        display: none;
+}
+ul li a  {
+        display: block;
+        width: 100px;
+        text-align: center;
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+        border: 1px solid white;
+        background-color: #ff85fda8;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+html ul li { 
+        float: left;
+        text-decoration: none;
+        list-style-type: none; 
+}
+li:hover ul { 
+        display: block;
+        text-decoration: none;
+        list-style-type: none;
+}
+#nav {
+        display: inline;
+        position: fixed;
+        z-index: 10;
+        top: 30px;
+        left: 15% ;
+        transform: translate(-50%);
+        
+}
+.botton {
+        color: white;
+}
+.botton:hover {
+    background-color: #ff85fd;
+}
+#menusize{
+        font-size: 20px;
+        padding-top: 5.5px;
+        padding-bottom: 2.5px;
+}
+#menuresp {
+        padding-top: 5.5px;
+        padding-bottom: 2.5px;
+}
+.botonimo {
+        display: none;
+}   
+.botoncom {
+        display: none;
+}
+.botonalu {
+        display: none;
+}
+.botonpro {
+        display: none;
+}
+.botoncon {
+        display: none;  
+}
+}
+@media screen and (max-width: 700px) {
+.titulo {
+    top: 10px;
+    left: 50%;
+
+    transform: translate(-50%);
+}
+.txtHistoria {
+    top: 150px;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    height: 400px;
+    width: 600px;
+}
+.imgini {
+    left: 50%;
+    top: 500px;
+
+    transform: translate(-50%);
+
+    width: 500px;
+    height: 700px;
+}
+}
+@media screen and (max-width: 670px) {
+.txtdoenca {
+    top: 100px;
+
+    height: 400px;
+    width: 500px;
+
+    
+
+    
+}
+.imgcontato2 {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+
+    transform: translate(-50%);
+    
+    height: 400px;
+    width: 500px;
+}
+}
+@media screen and (max-width: 650px) {
+.titulo {
+    width: 400px;
+
+    
+}
+.txtHistoria {
+    top: 150px;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    height: 400px;
+    width: 500px;
+}
+.imgini {
+    left: 50%;
+    top: 600px;
+
+    transform: translate(-50%);
+
+    width: 500px;
+    height: 700px;
+}
+}
+@media screen and (max-width: 550px) {
+.titulo {
+    width: 400px;
+
+    
+}
+.txtHistoria {
+    top: 150px;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    height: 400px;
+    width: 400px;
+}
+.imgini {
+    left: 50%;
+    top: 700px;
+
+    transform: translate(-50%);
+
+    width: 300px;
+    height: 500px;
+}
+.imgcontato2 {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+
+    transform: translate(-50%);
+    
+    height: 300px;
+    width: 400px;
+}
+}
+@media screen and (max-width: 540px) {
+ .txtdoenca {
+    height: 400px;
+    width: 400px;
+
+    overflow-y: scroll;
+}
+.imgcontato2 {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+
+    transform: translate(-50%);
+    
+    height: 300px;
+    width: 400px;
+}
+.imgdoenca {
+    top: 600px;
+    width: 80%;
+    height: 600px;
+}
+}
+@media screen and (max-width: 500px) {
+.imgdoenca {
+    width: 80%;
+    height: 500px;
+}
+.wtt {
+    left: 14%;
+}
+.face {
+    left: 14%;
+}
+.insta {
+    left: 14%;
+}
+.titulo {
+    width: 350px;
+
+    
+}
+.txtHistoria {
+    top: 200px;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    height: 400px;
+    width: 350px;
+}
+.imgini {
+    left: 50%;
+    top: 700px;
+
+    transform: translate(-50%);
+
+    width: 300px;
+    height: 500px;
+}
+}
+@media screen and (max-width: 450px) {
+.txtdoenca {
+    height: 400px;
+    width: 300px;
+
+    overflow-y: scroll;
+}
+.imgcontato2 {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+
+    transform: translate(-50%);
+    
+    height: 200px;
+    width: 300px;
+}
+}
+@media screen and (max-width: 400px) {
+
+}

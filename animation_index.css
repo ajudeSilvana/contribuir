@@ -1,0 +1,26 @@
+.pdrBtt:hover {
+    animation: over .6s;
+    color: black;
+    background-color: #ff85fd;
+}
+@keyframes over {
+    0% {color: white; background-color: #f4c4f3;}
+    100% {color: black; background-color: #ff85fd;}
+}
+[animation="animation1"] {
+    animation: out1;
+}
+@keyframes out1 {
+    0% {color: black; background-color: #ff85fd;}
+    100% {color: white; background-color: #f4c4f3;}
+}
+
+[animation="animation2"] {
+    animation: out2 2s infinite;
+    animation-timing-function: linear;
+}
+@keyframes out2 {
+    0% {padding: 5px;}
+    50% {padding: 8px;}
+    100% {padding: 5px;}
+}
